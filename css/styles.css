@@ -1,0 +1,18 @@
+@media screen and (min-width: 768px) {
+    .column {
+        width: 300px;
+        float:left;
+        padding: 20px;
+    }
+}
+@media screen and (max-width: 768px) and (min-width: 600px) {
+    body {
+        background-color: black;
+        color: white;
+    }
+}
+@media screen and (max-width: 500px) {
+    body {
+        background-color: teal;
+    }
+}
